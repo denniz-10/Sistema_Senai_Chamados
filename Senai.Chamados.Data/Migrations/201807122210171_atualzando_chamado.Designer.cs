@@ -7,13 +7,13 @@ namespace Senai.Chamados.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Altera_Coluna_Senha_Banco_10_07_2018 : IMigrationMetadata
+    public sealed partial class atualzando_chamado : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Altera_Coluna_Senha_Banco_10_07_2018));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(atualzando_chamado));
         
         string IMigrationMetadata.Id
         {
-            get { return "201807102344337_Altera_Coluna_Senha_Banco_10_07_2018"; }
+            get { return "201807122210171_atualzando_chamado"; }
         }
         
         string IMigrationMetadata.Source

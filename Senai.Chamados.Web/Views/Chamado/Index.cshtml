@@ -5,9 +5,14 @@
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
 }
 
-@section Styles{
-    <link href="https://getbootstrap.com/docs/4.0/examples/starter-template/starter-template.css" rel="stylesheet" />
-}
+<div class="jumbotron">
+	<div class="container">
+		<h1>Tela de Graficos</h1>
+		<p>Visualize todos os chamados e crie novos rapidamente</p>
+		<p> <a href="/Chamado/Cadastrar" class="btn btn-lg btn-primary" role="button">Criar chamado</a></p>
+
+	</div>
+</div>
 
 
 <main role="main" class="container">
@@ -36,7 +41,7 @@
                     <th>Status</th>
                     <th>Data Criação</th>
                     <th>
-                        <a href="/Chamado/Cadastrar" class="btn btn-primary">+</a>
+                       
                     </th>
                 </tr>
             </thead>
@@ -48,12 +53,12 @@
                         <td>@Html.DisplayFor(x => chamado.Setor)</td>
                         <td>@Html.DisplayFor(x => chamado.Status)</td>
                         <td>@Html.DisplayFor(x => chamado.DataCriacao)</td>
-                        <td>
-                            <a class="btn btn-primary" href="/Chamado/Editar/@chamado.Id">Editar</a>&nbsp;&nbsp;
+                        <td class="text-center"> 
+                            <a class="btn btn-primary" href="/Chamado/Editar/@chamado.Id"><i class="glyphicon glyphicon-edit"></i></a>&nbsp;&nbsp;
 
                             @if (User.IsInRole("Administrador"))
                             {
-                                <a class="btn btn-danger" href="/Chamado/Excluir/@chamado.Id">Excluir</a>
+                                <a class="btn btn-danger" href="/Chamado/Excluir/@chamado.Id"><i class="glyphicon glyphicon-trash"></i></a>
                             }
                         </td>
                     </tr>

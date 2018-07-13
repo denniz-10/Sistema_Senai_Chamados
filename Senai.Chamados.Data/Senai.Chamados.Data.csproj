@@ -48,25 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexto\SenaiChamadosDbContext.cs" />
-    <Compile Include="Migrations\201806252357323_BancoInicial_25_06_2018.cs" />
-    <Compile Include="Migrations\201806252357323_BancoInicial_25_06_2018.Designer.cs">
-      <DependentUpon>201806252357323_BancoInicial_25_06_2018.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201806262239336_Atualizacao_Tabela_Usuario_26_06_2018.cs" />
-    <Compile Include="Migrations\201806262239336_Atualizacao_Tabela_Usuario_26_06_2018.Designer.cs">
-      <DependentUpon>201806262239336_Atualizacao_Tabela_Usuario_26_06_2018.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201807032304177_Alteração_Tabela_Usuario_03_07_2018.cs" />
-    <Compile Include="Migrations\201807032304177_Alteração_Tabela_Usuario_03_07_2018.Designer.cs">
-      <DependentUpon>201807032304177_Alteração_Tabela_Usuario_03_07_2018.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201807042221410_Cria_Tabela_Chamados_04_07_2018.cs" />
-    <Compile Include="Migrations\201807042221410_Cria_Tabela_Chamados_04_07_2018.Designer.cs">
-      <DependentUpon>201807042221410_Cria_Tabela_Chamados_04_07_2018.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201807102344337_Altera_Coluna_Senha_Banco_10_07_2018.cs" />
-    <Compile Include="Migrations\201807102344337_Altera_Coluna_Senha_Banco_10_07_2018.Designer.cs">
-      <DependentUpon>201807102344337_Altera_Coluna_Senha_Banco_10_07_2018.cs</DependentUpon>
+    <Compile Include="Migrations\201807122210171_atualzando_chamado.cs" />
+    <Compile Include="Migrations\201807122210171_atualzando_chamado.Designer.cs">
+      <DependentUpon>201807122210171_atualzando_chamado.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,20 +68,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201806252357323_BancoInicial_25_06_2018.resx">
-      <DependentUpon>201806252357323_BancoInicial_25_06_2018.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201806262239336_Atualizacao_Tabela_Usuario_26_06_2018.resx">
-      <DependentUpon>201806262239336_Atualizacao_Tabela_Usuario_26_06_2018.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807032304177_Alteração_Tabela_Usuario_03_07_2018.resx">
-      <DependentUpon>201807032304177_Alteração_Tabela_Usuario_03_07_2018.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807042221410_Cria_Tabela_Chamados_04_07_2018.resx">
-      <DependentUpon>201807042221410_Cria_Tabela_Chamados_04_07_2018.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807102344337_Altera_Coluna_Senha_Banco_10_07_2018.resx">
-      <DependentUpon>201807102344337_Altera_Coluna_Senha_Banco_10_07_2018.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807122210171_atualzando_chamado.resx">
+      <DependentUpon>201807122210171_atualzando_chamado.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

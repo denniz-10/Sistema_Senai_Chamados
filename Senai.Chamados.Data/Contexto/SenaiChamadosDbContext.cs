@@ -8,7 +8,7 @@ namespace Senai.Chamados.Data.Contexto
     public class SenaiChamadosDbContext : DbContext
     {
 
-        public SenaiChamadosDbContext() : base(@"Data Source=.\SqlExpress;Initial Catalog = SenaiChamadosDb;integrated security = true")
+        public SenaiChamadosDbContext() : base("SenaiConnection")
         {
 
         }
